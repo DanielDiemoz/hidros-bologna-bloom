@@ -1,14 +1,5 @@
 {
-  "buildCommand": "vite build",
-  "outputDirectory": "dist/client",
-  "routes": [
-    {
-      "src": "/assets/(.*)",
-      "dest": "/assets/$1"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/api/server.js"
-    }
-  ]
+  "buildCommand": "npm run build",
+  "outputDirectory": ".vercel/output",
+  "framework": null
 }
